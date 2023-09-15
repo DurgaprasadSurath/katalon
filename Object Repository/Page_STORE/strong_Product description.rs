@@ -6,12 +6,12 @@
    <elementGuidId>ce98345e-dc29-4b28-ac2b-d88f45f00b64</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>strong</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='more-information']/strong</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

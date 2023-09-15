@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Add to cart</name>
+   <name>a_Samsung galaxy s6</name>
    <tag></tag>
-   <elementGuidId>c1108380-09db-4f20-8cbf-2981056ec2d6</elementGuidId>
+   <elementGuidId>f858d699-42b3-4528-9a40-6962a1bbab7d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-success.btn-lg</value>
+         <key>XPATH</key>
+         <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick='addToCart(1)']</value>
+         <key>CSS</key>
+         <value>a.hrefch</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,134 +22,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6892200b-e130-4b87-b507-fa9cc369d2a1</webElementGuid>
+      <webElementGuid>33ad1300-01c1-47bb-97b6-29685c423f77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-      <webElementGuid>4f50efbf-cb07-4368-b8a7-80236dbd648c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>addToCart(1)</value>
-      <webElementGuid>06856399-9e8a-4e2a-af6f-ac9284a47744</webElementGuid>
+      <value>prod.html?idp_=1</value>
+      <webElementGuid>7e95bcc3-7f23-412a-a4d9-b0595807ca8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-success btn-lg</value>
-      <webElementGuid>acd8e170-2e35-4728-97a8-1eeb5ae2793f</webElementGuid>
+      <value>hrefch</value>
+      <webElementGuid>cef115d2-f93c-4311-8a92-37fa48086300</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add to cart</value>
-      <webElementGuid>d0294318-4dbb-4be2-b04f-e5dc7dbe2fab</webElementGuid>
+      <value>Samsung galaxy s6</value>
+      <webElementGuid>7dc903de-aa84-4334-ab5c-9839e661d173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6&quot;]/a[@class=&quot;btn btn-success btn-lg&quot;]</value>
-      <webElementGuid>bc975372-8ac8-489c-a51a-5875a8dd2842</webElementGuid>
+      <value>id(&quot;tbodyid&quot;)/div[@class=&quot;col-lg-4 col-md-6 mb-4&quot;]/div[@class=&quot;card h-100&quot;]/div[@class=&quot;card-block&quot;]/h4[@class=&quot;card-title&quot;]/a[@class=&quot;hrefch&quot;]</value>
+      <webElementGuid>dbc2c813-bdac-4ffb-b604-2d8850b5cb28</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@onclick='addToCart(1)']</value>
-      <webElementGuid>41998684-34e9-4c57-ac15-c124cefa8966</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tbodyid']/div[2]/div/a</value>
-      <webElementGuid>1cc3a44b-933b-404b-b368-4a7eea21da5e</webElementGuid>
+      <value>//div[@id='tbodyid']/div/div/div/h4/a</value>
+      <webElementGuid>5bec78ad-1493-44c3-bb93-41dad2cc1625</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Add to cart')]</value>
-      <webElementGuid>68ac23be-ad1e-446b-8f20-d4f494f75b6a</webElementGuid>
+      <value>//a[contains(text(),'Samsung galaxy s6')]</value>
+      <webElementGuid>84122128-ec0e-48fb-af34-d76f6a49ba52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product description'])[1]/following::a[1]</value>
-      <webElementGuid>cc20b9ef-6448-4df4-8611-399d52adaa42</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CATEGORIES'])[1]/following::a[5]</value>
+      <webElementGuid>92cd586d-ef59-45b4-92c5-41bea23d2f88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*includes tax'])[1]/following::a[1]</value>
-      <webElementGuid>9e384aa6-e39a-4c4b-9226-82c3552842f6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::a[6]</value>
+      <webElementGuid>b2223628-541c-4771-a1e4-d9591286dbdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/preceding::a[1]</value>
-      <webElementGuid>87d657e6-9729-4c80-ab15-14ece1008727</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$360'])[1]/preceding::a[1]</value>
+      <webElementGuid>78ad6869-1721-464c-a6bd-1b26ccc62a17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get in Touch'])[1]/preceding::a[1]</value>
-      <webElementGuid>d1becdb9-596d-4ea3-9fb3-71868db1e4c6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nokia lumia 1520'])[1]/preceding::a[2]</value>
+      <webElementGuid>9492a212-7099-4dbe-8618-917ef244a60f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Add to cart']/parent::*</value>
-      <webElementGuid>27a36d20-564d-46f7-b26d-4e965857ad96</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Samsung galaxy s6']/parent::*</value>
+      <webElementGuid>027060dd-8fd6-43f5-b6a9-3bb2c9b9c7a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[9]</value>
-      <webElementGuid>05a56c32-a3f2-4ec4-8fef-c136a687129e</webElementGuid>
+      <value>(//a[contains(@href, 'prod.html?idp_=1')])[2]</value>
+      <webElementGuid>ca9b1d0c-c4a6-4e35-9274-cc07e79ad44c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a</value>
-      <webElementGuid>7e977e58-0347-44c9-bf73-f0f14b11f8b4</webElementGuid>
+      <value>//h4/a</value>
+      <webElementGuid>7713400e-a229-4adb-9519-9085b6d0e7c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'Add to cart' or . = 'Add to cart')]</value>
-      <webElementGuid>c302aaf5-61df-4dc5-9ba8-62f65e1e71b9</webElementGuid>
+      <value>//a[@href = 'prod.html?idp_=1' and (text() = 'Samsung galaxy s6' or . = 'Samsung galaxy s6')]</value>
+      <webElementGuid>7dc09393-41ee-4b9f-a3a3-51d038c05d9a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
