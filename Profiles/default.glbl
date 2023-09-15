@@ -4,4 +4,29 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>dai_access_token</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'89db7a7c-c6ec-4512-9c14-5115c2f99e98'</initValue>
+      <name>Test_Config_Id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'client:dai:api:integration:fbfce9bb-9038-4f49-a703-4dc47c7bc01a'</initValue>
+      <name>client_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'LCs8n5VsszG6hTnjoHlatfOimC1GXHEc'</initValue>
+      <name>client_secret</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'client_credentials'</initValue>
+      <name>grant_type</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
