@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'c41ab2ce-8da1-433d-b638-0c12028ebfe9'</initValue>
+      <initValue>'1dbbf119-8709-4fbf-aa16-8edc556bbfc9'</initValue>
       <name>Test_Config_Id</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,12 +21,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'LCs8n5VsszG6hTnjoHlatfOimC1GXHEc'</initValue>
+      <initValue>'MGSSabFn8onwA1os75SwcpcF2xatjCHJ'</initValue>
       <name>client_secret</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'client_credentials'</initValue>
       <name>grant_type</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>test_config_instance_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>progress_details</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>run_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>MobilePrice</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
