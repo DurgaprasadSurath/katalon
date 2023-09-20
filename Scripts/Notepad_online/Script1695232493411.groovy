@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://onlinenotepad.org/notepad')
+WebUI.navigateToUrl('https://write-box.appspot.com/')
 
 WebUI.sendKeys(findTestObject('Page_STORE/textFieldId'), '${GlobalVariable.MobilePrice}')
+
+WebUI.closeBrowser()
 

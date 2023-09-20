@@ -11,9 +11,16 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;tinymce&quot;]</value>
+         <value>//*[@id=&quot;editor&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;editor&quot;]</value>
+      <webElementGuid>26692d4c-fe9d-4111-aede-a6b3266add26</webElementGuid>
+   </webElementXpaths>
 </WebElementEntity>
