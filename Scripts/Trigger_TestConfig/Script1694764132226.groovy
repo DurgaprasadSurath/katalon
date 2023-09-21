@@ -111,8 +111,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://write-box.appspot.com/')
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Page_STORE/textFieldId'), '${GlobalVariable.MobilePrice}')
 
+WebUI.delay(5)
 WebUI.closeBrowser()
