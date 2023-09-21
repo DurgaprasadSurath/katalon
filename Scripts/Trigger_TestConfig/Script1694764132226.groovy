@@ -95,12 +95,21 @@ def jsonSlurper = new JsonSlurper()
 def jsonObject = jsonSlurper.parseText(jsonResponse_Run_Id)
 
 def elements = jsonObject.allmessages
-
+println(elements)
 for (entry in jsonObject) {
+	println(entry)
 	def message = entry.message
 	if (message.contains("Mobile Price")) {
-		println("Element Value: $message")
-		GlobalVariable.MobilePrice = $message
+		println("Element Value": message)
+		GlobalVariable.MobilePrice = message
+		break;
 	}
 }
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://write-box.appspot.com/')
+
+WebUI.sendKeys(findTestObject('Page_STORE/textFieldId'), '${GlobalVariable.MobilePrice}')
+
+WebUI.closeBrowser()
