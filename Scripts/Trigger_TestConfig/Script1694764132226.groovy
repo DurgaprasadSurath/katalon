@@ -26,8 +26,6 @@ def result = slurper.parseText(DAIInfo.getResponseBodyContent())
 
 GlobalVariable.dai_access_token = result.access_token
 
-println(GlobalVariable.dai_access_token)
-
 ConfigInfo = WS.sendRequest(findTestObject('Trigger_Test_Config', [('Test_Config_Id') : '${Test_Config_Id}']))
 
 WS.verifyResponseStatusCode(ConfigInfo, 200)
@@ -36,10 +34,7 @@ def slurper2 = new groovy.json.JsonSlurper()
 
 def result2 = slurper2.parseText(ConfigInfo.getResponseBodyContent())
 
-
 GlobalVariable.test_config_instance_id = result2.task_instance_id
-
-println(GlobalVariable.test_config_instance_id)
 
 progress_info = WS.sendRequest(findTestObject('Get_Progress'))
 
@@ -52,18 +47,15 @@ def result3 = slurper3.parseText(progress_info.getResponseBodyContent())
 GlobalVariable.progress_details = result3.runstatus
 
 while (GlobalVariable.progress_details == 'STARTED') {
+	
     progress_info = WS.sendRequest(findTestObject('Get_Progress'))
 
     def slurper4 = new groovy.json.JsonSlurper()
 
     def result4 = slurper4.parseText(progress_info.getResponseBodyContent())
 
-    println(result4)
-
     GlobalVariable.progress_details = result4.runstatus
 }
-
-println(GlobalVariable.progress_details)
 
 run_info = WS.sendRequest(findTestObject('Get_Run_Id'))
 
@@ -71,21 +63,15 @@ def slurper5 = new groovy.json.JsonSlurper()
 
 def result5 = slurper5.parseText(run_info.getResponseBodyContent())
 
-println(result5)
-
 def run_items = result5.items
 
 def run_id_square = run_items.id
-
-println(run_id_square)
 
 run_Id_Square_string = run_id_square.toString()
 
 GlobalVariable.run_id = run_Id_Square_string.replaceAll(/\[|\]/, '')
 
 run_logs_of_Id = WS.sendRequest(findTestObject('Get_Run_Logs'))
-
-println(run_logs_of_Id)
 
 WS.verifyResponseStatusCode(run_logs_of_Id, 200)
 
@@ -96,16 +82,22 @@ def jsonSlurper = new JsonSlurper()
 def jsonObject = jsonSlurper.parseText(jsonResponse_Run_Id)
 
 def elements = jsonObject.allmessages
-println(elements)
+
 for (entry in jsonObject) {
-	println(entry)
+	
 	def message = entry.message
+	
 	if (message.contains("Mobile Price")) {
+		
 		println("Element Value": message)
+		
 		GlobalVariable.MobilePrice = message
+		
 		break;
 	}
 }
+
+println(GlobalVariable.MobilePrice)
 
 WebUI.openBrowser('')
 
@@ -113,7 +105,8 @@ WebUI.navigateToUrl('https://write-box.appspot.com/')
 
 WebUI.delay(2)
 
-WebUI.sendKeys(findTestObject('Page_STORE/textFieldId'), '${GlobalVariable.MobilePrice}')
+WebUI.sendKeys(findTestObject('Page_STORE/textFieldId'), "${GlobalVariable.MobilePrice}")
 
 WebUI.delay(5)
+
 WebUI.closeBrowser()
