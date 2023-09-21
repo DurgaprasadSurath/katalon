@@ -36,6 +36,7 @@ def slurper2 = new groovy.json.JsonSlurper()
 
 def result2 = slurper2.parseText(ConfigInfo.getResponseBodyContent())
 
+
 GlobalVariable.test_config_instance_id = result2.task_instance_id
 
 println(GlobalVariable.test_config_instance_id)
